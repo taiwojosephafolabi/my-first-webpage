@@ -32,6 +32,41 @@ p{
     margin-right: auto;
 }
 
+.blog{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+#blog-image{
+    width: 300px; 
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#favourite{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comment{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #socials{
     display: flex;
     justify-content: space-around ;
