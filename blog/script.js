@@ -1,5 +1,4 @@
 let i = 2;
-
 function favouriteButton() {
     if(i % 2 == 0){
     document.getElementById("favourite").style.backgroundColor = "brown",
@@ -19,5 +18,27 @@ function favouriteButton() {
 
 function submitButton(){
     let comment = (document.getElementById("comment").value);
+    alert(comment);
+};
+
+function favouriteButton2() {
+    if(i % 2 == 0){
+    document.getElementById("favourite2").style.backgroundColor = "brown",
+    document.getElementById("favourite2").style.color = "white",
+    document.getElementById("favourite2").style.borderColor = "brown",
+    document.getElementById("favourite2").textContent= "Favourited"
+    i += 1;
+}
+    else if(i % 2 == 1){;
+    document.getElementById("favourite2").style.backgroundColor = "transparent",
+    document.getElementById("favourite2").style.color = "black",
+    document.getElementById("favourite2").style.borderColor = "black",
+    document.getElementById("favourite2").textContent= "Favourite"
+    i += 1;
+}
+};
+
+function submitButton2(){
+    let comment = (document.getElementById("comment2").value);
     alert(comment);
 };
