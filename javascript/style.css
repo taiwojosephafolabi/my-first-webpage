@@ -54,6 +54,24 @@ p{
     margin-right: auto;
 }
 
+.description{
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description h3{
+    text-align: left;
+}
+
+.description p{
+    text-align: left;
+}
+
+
 #comment{
     display: block;
     margin-left: auto;
@@ -75,3 +93,34 @@ p{
 #socials li {
     list-style-type: square;
 }
+
+
+
+
+.blog {
+float: left;
+padding: 10px;
+}
+
+.column.left,
+.column.right {
+width: 22%; /* Because of .column padding */
+}
+
+.column.middle {
+width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+.column.left,
+.column.middle,
+.column.right {
+    width: 100%;
+}
+}
+
+.blog:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
